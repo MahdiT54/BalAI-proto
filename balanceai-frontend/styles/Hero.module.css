@@ -1,3 +1,22 @@
+.hero {
+  height: calc(100vh - 80px);
+}
+
 .hero__frame {
-    height: 110vh;
+    padding: 24px;
+  background-size: cover;
+  max-height: 675px;
+  height: 100%;
+  background: url("../public/herobg.png") no-repeat top center/cover;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.39) inset;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.39) inset;
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.39) inset;
+}
+
+.hero__frame--h1 {
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: 200;
+    margin-top: 24px;
 }
