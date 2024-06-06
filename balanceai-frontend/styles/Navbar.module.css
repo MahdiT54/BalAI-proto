@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    padding: 24px;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  width: 40px;
+}
+
+.nav__logo--img {
+  margin-right: 4px;
+}
+
+.nav__logo--text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  margin-left: 12px;
+}
+
+.nav__link:hover {
+  color: #16a34a;
+}
+
+.nav__link--home {
+  /*   Targeted home class for navbar / inquire if confused   */
+  /* margin-right: 24px; */
+}
