@@ -7,10 +7,7 @@
   background-size: cover;
   max-height: 675px;
   height: 100%;
-  background: url("../public/herobg.png") no-repeat top center/cover;
-  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.39) inset;
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.39) inset;
-  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.39) inset;
+  background: url("../public/herobg.jpeg") no-repeat top center/cover;
 }
 
 .hero__frame--h1 {
