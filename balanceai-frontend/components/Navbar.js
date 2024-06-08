@@ -5,7 +5,7 @@ import navstyles from "../styles/Navbar.module.css";
 export default function Navbar() {
   return (
     <nav className={navstyles.nav}>
-      <div className={navstyles.nav__login}></div>
+      {/* <div className={navstyles.nav__login}></div> */}
       <div className={navstyles.nav__row}>
         <Link href="/">
           <figure className={navstyles.nav__logo}>

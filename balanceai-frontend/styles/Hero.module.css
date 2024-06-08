@@ -1,5 +1,5 @@
 .hero {
-  height: calc(100vh - 80px);
+  height: 100vh;
 }
 
 .hero__frame {
@@ -13,35 +13,103 @@
 }
 
 .hero__frame--h1 {
-  color: #efefef;
+  color: #8e98ac;
   text-align: center;
   font-size: 2.1em;
-  font-weight: 200;
+  font-weight: 300;
   margin-top: 24px;
 }
 
-.hero__buttons {
+.hero__interactive {
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  max-width: 440px;
   justify-content: center;
 }
 
-.hero__buttons--learn,
-.hero__buttons--signup {
-  margin: 15px 10px;
+.email__form {
+  position: relative;
+  max-width: 28rem;
+  text-align: center;
+}
+
+.email__input {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 12rem;
+  width: 100%;
+  border-radius: 9999px;
+  border: 2px solid #8e98ac;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding-left: 2rem;
+  font-weight: 500;
+  transition-property: background-color, border-color, color, fill, stroke,
+  opacity, box-shadow, transform;
+  transition-duration: 300ms;
+}
+
+.email__input::placeholder {
+  color: rgb(255, 255, 255); /* Replace #yourColor with the color you want */
+}
+
+.email__input:hover {
+  border-color: #585e6b;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.email__input:focus {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-color: rgb(0, 0, 0);
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+}
+
+.started__button {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 10rem;
+  line-height: 1;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #909cb5;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.purple__button--hover {
+  transition: all 300ms ease;
+}
+
+.purple__button--hover:hover {
+  background-color: black;
+}
+
+.purple__button--focus:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.hero__buttons--learn {
+  margin: 15px 0px;
   padding: 15px 55px;
   font-size: 24px;
-  font-weight: 300;
-  border: 2px solid white;
+  font-weight: 500;
+  border: 2px solid #8e98ac;
   border-radius: 99px;
-  background: rgb(0, 0, 0, 0.65);
-  color: white;
+  background: rgb(0, 0, 0, 0.5);
+  color: #8e98ac;
   transition: all 0.1s ease;
 }
 
-.hero__buttons--learn:hover,
-.hero__buttons--signup:hover {
-  background: rgb(7, 21, 0);
-}
-
-.hero__buttons--login {
+.hero__buttons--learn:hover {
+  background: black;
 }

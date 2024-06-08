@@ -21,6 +21,14 @@ button {
   cursor: pointer;
 }
 
+button,
+input {
+  font-size: 100%;
+  line-height: inherit;
+  color: inherit;
+  margin: 0px;
+}
+
 img {
   width: 100%;
 }
