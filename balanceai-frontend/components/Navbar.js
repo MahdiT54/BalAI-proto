@@ -34,6 +34,7 @@ export default function Navbar() {
           <Link href="/technology">
             <li className={navstyles.nav__link}>Technology</li>
           </Link>
+          
         </ul>
       </div>
     </nav>
