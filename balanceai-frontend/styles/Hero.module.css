@@ -26,12 +26,21 @@
 }
 
 .hero__buttons--learn,
-.hero__buttons--login {
-  font-size: 23px;
-  padding: 15px 55px 12px 55px;
+.hero__buttons--signup {
   margin: 15px 10px;
-  background: rgba(255, 255, 255, 0.45);
-  border-radius: 3px;
+  padding: 15px 55px;
+  font-size: 24px;
+  font-weight: 300;
+  border: 2px solid white;
+  border-radius: 99px;
+  background: rgb(0, 0, 0, 0.65);
+  color: white;
+  transition: all 0.1s ease;
+}
+
+.hero__buttons--learn:hover,
+.hero__buttons--signup:hover {
+  background: rgb(7, 21, 0);
 }
 
 .hero__buttons--login {

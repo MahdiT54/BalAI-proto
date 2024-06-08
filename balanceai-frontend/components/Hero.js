@@ -9,7 +9,7 @@ export default function Hero() {
         </h1>
         <div className={herostyles.hero__buttons}>
           <button className={herostyles["hero__buttons--learn"]}>Learn More</button>
-          <button className={herostyles["hero__buttons--login"]}>Login</button>
+          <button className={herostyles["hero__buttons--signup"]}>Sign Up</button>
         </div>
       </div>
     </div>
