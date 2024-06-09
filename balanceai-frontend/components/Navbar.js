@@ -11,7 +11,7 @@ export default function Navbar() {
           <figure className={navstyles.nav__logo}>
             <img
               src="/Logo.svg"
-              className={navstyles["nav__logo--img"]}
+              className={`${navstyles["nav__logo--img"]} logo-invert`}
               alt=""
             />
             <h6 className={navstyles["nav__logo--text"]}>BalanceAI</h6>
@@ -36,8 +36,8 @@ export default function Navbar() {
           </Link>
         </ul>
           <div className={navstyles["nav__button--container"]}>
-            <button className={navstyles.nav__button}>Login</button>
-            <button className={navstyles.nav__button}>Sign Up</button>
+            <button className={`${navstyles.nav__button} bai__button--hover bai__button--focus`}>Login</button>
+            <button className={`${navstyles.nav__button} bai__button--hover bai__button--focus`}>Sign Up</button>
           </div>
       </div>
     </nav>

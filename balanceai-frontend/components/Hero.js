@@ -15,12 +15,12 @@ export default function Hero() {
               placeholder="Your E-mail Address"
             />
             <button
-              className={`${herostyles.started__button} ${herostyles["purple__button--hover"]}`}
+              className={`${herostyles.started__button} bai__button--hover bai__button--focus`}
             >
               Get Started
             </button>
           </div>
-          <button className={herostyles["hero__buttons--learn"]}>
+          <button className={`${herostyles["hero__buttons--learn"]} bai__button--hover bai__button--focus`}>
             Learn More
           </button>
         </div>

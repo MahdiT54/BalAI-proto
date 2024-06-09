@@ -6,7 +6,7 @@
   background-color: #0f0f0f;
   position: fixed;
   width: 100%;
-  box-shadow: 0px 6px 18px 1px #00061a;
+  box-shadow: 0px 2px 11px 0px #00061a;
   z-index: 99999;
 }
 
@@ -29,11 +29,12 @@
 .nav__logo {
   display: flex;
   align-items: center;
-  width: 40px;
 }
 
 .nav__logo--img {
   margin-right: 4px;
+  width: 4rem;
+  filter: invert(1);
 }
 
 .nav__logo--text {
@@ -44,7 +45,6 @@
 .nav__list {
   display: flex;
   align-items: center;
-  margin-left: 124px;
 }
 
 .nav__link {
@@ -68,16 +68,16 @@
   transition: all 0.1s ease;
 }
 
-.nav__button:hover {
-  /* background: rgb(255, 255, 255); */
+/* .nav__button:hover {
+  background: rgb(255, 255, 255);
   border-color: #8e98ac;
   color: #8e98ac;
-}
+} */
 
-.nav__button--container {
+/* .nav__button--container {
 }
 
 .nav__link--home {
   /*   Targeted home class for navbar / inquire if confused   */
   /* margin-right: 24px; */
-}
+/* } */ 

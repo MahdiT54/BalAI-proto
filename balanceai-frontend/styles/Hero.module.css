@@ -42,8 +42,8 @@
   padding-right: 12rem;
   width: 100%;
   border-radius: 9999px;
-  border: 2px solid #8e98ac;
-  box-shadow: 0px -3px 7px 1px #000413;
+  border: 2px solid #fff;
+  /* box-shadow: 0px -3px 7px 1px #000413; */
   background-color: rgba(0, 0, 0, 0.25);
   padding-left: 2rem;
   font-weight: 500;
@@ -53,17 +53,18 @@
 }
 
 .email__input::placeholder {
-  color: rgb(255, 255, 255); /* Replace #yourColor with the color you want */
+  color: #fff; /* Replace #yourColor with the color you want */
+  opacity: .5;
 }
 
 .email__input:hover {
-  border-color: #585e6b;
-  background-color: rgb(0, 0, 0, 0.5);
+  /* border-color: #585e6b; */
+  background-color: rgb(0, 0, 0, 0.4);
 }
 
 .email__input:focus {
-  background-color: rgb(0, 0, 0, 0.6);
-  border-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.75);
+  /* border-color: rgb(0, 0, 0); */
   outline: transparent solid 2px;
   outline-offset: 2px;
 }
@@ -82,7 +83,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 9999px;
-  background-color: rgb(144, 156, 181, .5);
+  border: 2px solid white;
+  background-color: rgb(144, 156, 181, 0);
   /* box-shadow: -1px -3px 8px 1px #000413; */
   color: white;
   padding-top: 1rem;
@@ -90,30 +92,31 @@
   font-weight: 700;
 }
 
-.purple__button--hover {
+/* .bai__button--hover {
   transition: all 300ms ease;
 }
 
-.purple__button--hover:hover {
-  background-color: black;
+.bai__button--hover:hover {
+  background-color: white;
+  color: black;
 }
 
-.purple__button--focus:focus {
+.bai__button--focus:focus {
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-}
+  /* scale: .975; */
+/* } */
 
 .hero__buttons--learn {
   margin: 15px 0px;
   padding: 15px 55px;
   font-size: 24px;
   font-weight: 500;
-  border: 2px solid #8e98ac;
+  border: 2px solid #fff;
   border-radius: 99px;
-  background: rgb(0, 0, 0, 0.5);
-  color: #8e98ac;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #fff;
   transition: all 0.1s ease;
 }
 
-.hero__buttons--learn:hover {
-  background: black;
-}
+/* .hero__buttons--learn:hover {
+} */
